@@ -81,13 +81,13 @@ If this network was compromised with 2 Byzantine nodes we will still have the 'o
 
     * Open the MyCrypto app, then click `Change Network` at the bottom left:
 
-    ![change network](ScreenShots/changenetwork.png)
+    ![change network](ScreenShots/change-network.png)
 
     * Click "Add Custom Node", then add the custom network information that you set in the genesis.
 
     * Make sure that you scroll down to choose `Custom` in the "Network" column to reveal more options like `Chain ID`:
 
-    ![custom network](Images/custom-network.png)
+    ![custom network](ScreenShots/custom-network.png)
 
     The chain ID of 340 is chosen to not conflict with any previous chain IDs
 
@@ -113,11 +113,10 @@ If this network was compromised with 2 Byzantine nodes we will still have the 'o
 
     * In the `To Address` box, type the account address from Node2 (0x5bc5456eC32bdDFC9783D76400F77cAaD0306AE9), then fill in an arbitrary amount of ETH (0.5):
 
-     ![transaction send](ScreenShots/transaction-send.png)
 
     * Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.  
 
-    ![Send transaction](ScreenShots/Fundednode2.gif)
+    ![Send transaction](ScreenShots/Fundednode2.png)
 
     * Click the `Check TX Status` when the green message pops up, confirm the logout:
 
