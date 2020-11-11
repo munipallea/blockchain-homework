@@ -1,0 +1,11 @@
+amuni@Amar-Desktop-XPS MINGW64 /c/Program Files/Blockchain Tools
+$ ./geth --datadir homeworknode2 init homework.json
+INFO [11-11|11:55:22.097] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-11|11:55:22.145] Allocated cache and file handles         database="C:\\Program Files\\Blockchain Tools\\homeworknode2\\geth\\chaindata" cache=16.00MiB handles=16
+INFO [11-11|11:55:22.503] Writing custom genesis block
+INFO [11-11|11:55:22.509] Persisted trie from memory database      nodes=3 size=457.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-11|11:55:22.516] Successfully wrote genesis state         database=chaindata hash=5ab04c…59b6f7
+INFO [11-11|11:55:22.518] Allocated cache and file handles         database="C:\\Program Files\\Blockchain Tools\\homeworknode2\\geth\\lightchaindata" cache=16.00MiB handles=16
+INFO [11-11|11:55:23.173] Writing custom genesis block
+INFO [11-11|11:55:23.176] Persisted trie from memory database      nodes=3 size=457.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-11|11:55:23.206] Successfully wrote genesis state         database=lightchaindata hash=5ab04c…59b6f7

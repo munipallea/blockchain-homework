@@ -1,0 +1,27 @@
+amuni@Amar-Desktop-XPS MINGW64 /c/Program Files/Blockchain Tools
+$ ./geth --datadir node2 --unlock "0x5bc5456eC32bdDFC9783D76400F77cAaD0306AE9" --mine --port 30304 --bootnodes "enode://f837e6a3416b5f6c0afe31f00d6201117cfa5de335ec4aeb6871071c43cfee99373a641a978e492b443f20cd44bc21b6ba190562f485cad0c4e259385e94fee6@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+INFO [11-11|12:00:32.080] Bumping default cache on mainnet         provided=1024 updated=4096
+WARN [11-11|12:00:32.084] Sanitizing cache to Go's GC limits       provided=4096 updated=2666
+INFO [11-11|12:00:32.087] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-11|12:00:32.148] Starting peer-to-peer node               instance=Geth/v1.9.7-stable-a718daa6/windows-amd64/go1.13.4
+INFO [11-11|12:00:32.154] Allocated trie memory caches             clean=666.00MiB dirty=666.00MiB
+INFO [11-11|12:00:32.156] Allocated cache and file handles         database="C:\\Program Files\\Blockchain Tools\\node2\\geth\\chaindata" cache=1.30GiB handles=8192
+INFO [11-11|12:00:33.589] Opened ancient database                  database="C:\\Program Files\\Blockchain Tools\\node2\\geth\\chaindata\\ancient"
+INFO [11-11|12:00:33.594] Writing default main-net genesis block
+INFO [11-11|12:00:33.845] Persisted trie from memory database      nodes=12356 size=1.79MiB time=56.848ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-11|12:00:33.850] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000 Engine: ethash}"
+INFO [11-11|12:00:33.856] Disk storage enabled for ethash caches   dir="C:\\Program Files\\Blockchain Tools\\node2\\geth\\ethash" count=3
+INFO [11-11|12:00:33.859] Disk storage enabled for ethash DAGs     dir=C:\\Users\\amuni\\AppData\\Local\\Ethash count=2
+INFO [11-11|12:00:33.861] Initialising Ethereum protocol           versions="[64 63]" network=1 dbversion=<nil>
+WARN [11-11|12:00:33.866] Upgrade blockchain database version      from=<nil> to=7
+INFO [11-11|12:00:33.906] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=51y7mo1w
+INFO [11-11|12:00:33.912] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=51y7mo1w
+INFO [11-11|12:00:33.914] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=51y7mo1w
+INFO [11-11|12:00:33.922] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-11|12:00:33.971] Allocated fast sync bloom                size=1.30GiB
+INFO [11-11|12:00:34.040] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=65.917ms
+INFO [11-11|12:00:34.908] New local node record                    seq=1 id=544181e1b900c5dc ip=127.0.0.1 udp=30304 tcp=30304
+INFO Unlocking account 0x5bc5456eC32bdDFC9783D76400F77cAaD0306AE9 | Attempt 1/3
+[11-11|12:00:3Password: 4.915] Started P2P networking                   self=enode://a619bfc4077b1281409217afc856a145844c305b5556eddf05b3c90c3255a0d090d7ffdc3560baf7c3f472e44875943da2c5c72565a65256bb70c86b1404f65e@127.0.0.1:30304
+WARN [11-11|12:00:34.933] Dropping unsynced node during fast sync  id=3ac12531a26566ff conn=dyndial addr=127.0.0.1:30303 type=Geth/v1.9.7-stable-a718daa6/windows-amd64/go1.13.4
+INFO [11-11|12:00:37.468] New local node record                    seq=2 id=544181e1b900c5dc ip=65.95.143.205 udp=30304 
