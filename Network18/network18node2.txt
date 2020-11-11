@@ -1,2 +1,0 @@
-Public address of the key:   0xFF7909fEc1e9444D89f9D175D227D126220271D2
-Path of the secret key file: hwnode2\keystore\UTC--2020-11-11T01-19-49.722022600Z--ff7909fec1e9444d89f9d175d227d126220271d2
