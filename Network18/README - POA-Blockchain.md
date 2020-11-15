@@ -124,6 +124,10 @@ If this network was compromised with 2 Byzantine nodes we will still have the 'o
 
     * You should see the transaction go from `Pending` to `Successful` in around the same blocktime you set in the genesis.
 
+A complete Word documenyt is enclosed
+[a relative link](PoAFunding.docx)
+    ![Final Confirmation](ScreenShots/FundedStatus.png)
+
 
 ## Congratulations, you successfully created your own private blockchain! Welcome to ZBank!
 ## Refer to folder NetworkDetails and NodeDetails to retrieve your keys!
