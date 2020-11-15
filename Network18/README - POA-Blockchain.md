@@ -125,7 +125,11 @@ If this network was compromised with 2 Byzantine nodes we will still have the 'o
     * You should see the transaction go from `Pending` to `Successful` in around the same blocktime you set in the genesis.
 
 A complete Word documenyt is enclosed
-[a relative link](PoAFunding.docx)
+[Complete](PoAFunding.docx)
+Broken down by genesis block, Node 1 and Node 2
+[Genesis](GenesisBlock.docx)
+[Node1](FirstNode.docx)
+[Node2](SecondNode.docx)
     ![Final Confirmation](ScreenShots/FundedStatus.png)
 
 
